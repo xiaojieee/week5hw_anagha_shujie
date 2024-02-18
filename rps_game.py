@@ -1,1 +1,3 @@
-# Create a Game: Rock, Paper, Scissors!
+import rps_function
+
+rps_function.play_game()
