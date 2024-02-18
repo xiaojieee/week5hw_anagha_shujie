@@ -85,7 +85,7 @@ def play_game():
         while True:
             time.sleep(2)
             play_again = input("Do you want to play again? Enter 'y' to continue, or 'n' to exit"
-                               "\nAlternatively enter 'c' to check the scores:").lower()
+                               "\nAlternatively, enter 'c' to check the scores:").lower()
             if play_again == 'y' or play_again == 'n':
                 break
             elif play_again == 'c':
@@ -111,7 +111,7 @@ def play_game():
 
 
 if __name__ == "__main__":
-    # test the function
+    # test the functions
     print(computer_choice())
     print(player_choice())
     play_game()
