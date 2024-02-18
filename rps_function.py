@@ -90,7 +90,7 @@ def play_game():
                 break
             elif play_again == 'c':
                 print(f"Scores up until now\n" + "-" * 19 + "\n"
-                      f"Computer{computer_score:>11d}\nYou{player_score:>16d}")
+                      f"Computer{computer_score:>11}\nYou{player_score:>16}")
             else:
                 print("Oh no! Not a valid option! Please enter 'y' or 'n' to continue!")
         if play_again != 'y':
