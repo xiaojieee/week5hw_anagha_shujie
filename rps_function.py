@@ -57,7 +57,7 @@ def play_game():
     random.seed()
     print("Let's play a game of Rock, Paper, Scissors!"
           "\nHint! Rock smashes Scissors, Paper wraps Rock, Scissors cut paper"
-          "\nRules: Best of 3 win")
+          "\nRules: Best of 3 wins")
     while True:
         computer_score = 0
         player_score = 0
@@ -78,9 +78,9 @@ def play_game():
         if player_score > computer_score:
             print("Congratulations! You won!\n" + "-" * 64)
         elif player_score < computer_score:
-            print("Sorry! The computer won!\n" + "-" * 64)
+            print("Sorry, the computer won!\n" + "-" * 64)
         else:
-            print("It's a tie! No one won!\n" + "-" * 64)
+            print("It's a tie, no one won!\n" + "-" * 64)
 
         while True:
             time.sleep(2)
