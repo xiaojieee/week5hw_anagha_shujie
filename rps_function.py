@@ -55,7 +55,9 @@ def winner(computer, player):
 
 def play_game():
     random.seed()
-    print("Let's play a game of Rock, Paper, Scissors!\nRules: Best of 3 win")
+    print("Let's play a game of Rock, Paper, Scissors!"
+          "\nHint! Rock smashes Scissors, Paper wraps Rock, Scissors cut paper"
+          "\nRules: Best of 3 win")
     while True:
         computer_score = 0
         player_score = 0
@@ -74,17 +76,21 @@ def play_game():
             print(f"Computer's score: {computer_score}. Your score {player_score}.")
 
         if player_score > computer_score:
-            print("Congratulations! You win!")
+            print("Congratulations! You won!\n" + "-" * 64)
         elif player_score < computer_score:
-            print("Sorry! The computer win!")
+            print("Sorry! The computer won!\n" + "-" * 64)
         else:
-            print("It's a tie! No one win!")
+            print("It's a tie! No one won!\n" + "-" * 64)
 
         while True:
             time.sleep(2)
-            play_again = input("Do you want to play again? (Enter 'y' to continue, or 'n' to exit):").lower()
+            play_again = input("Do you want to play again? Enter 'y' to continue, or 'n' to exit"
+                               "\nAlternatively enter 'c' to check the scores:").lower()
             if play_again == 'y' or play_again == 'n':
                 break
+            elif play_again == 'c':
+                print(f"Scores up until now\n" + "-" * 19 + "\n"
+                      f"Computer{computer_score:>11d}\nYou{player_score:>16d}")
             else:
                 print("Oh no! Not a valid option! Please enter 'y' or 'n' to continue!")
         if play_again != 'y':
@@ -100,6 +106,7 @@ def play_game():
 # after the game have gone through 3 rounds it will print a new message declaring the game winner
 # using the .sleep method again to wait to prompt the player if they want to play the game again
 # depending on their choice either play again, which loops through the code again
+# the player also have a choice to view the scores up until now
 # if they chose to not play, it will end the code
 
 
