@@ -1,14 +1,36 @@
-Anagha vs Computer:
-Best of 3 winner: Anagha, won 2 games
-Anagha vs Computer:
+Adam vs Computer: 2024-02-18 22:43:50.528910
 Best of 3 winner: Computer, won 2 games
-Shujie vs Computer:
+Avy vs Computer: 2024-02-18 22:44:39.734418
+Best of 3 winner: Computer, won 2 games
+Anagha vs Computer: 2024-02-18 22:45:54.925724
+Best of 3 winner: Anagha, won 2 games
+Shujie vs Computer: 2024-02-18 22:46:49.236982
+Best of 3 winner: Shujie, won 3 games
+Abbie vs Computer: 2024-02-18 22:47:23.849082
+Best of 3 winner: Computer, won 2 games
+Zoe vs Computer: 2024-02-18 23:19:58.369598
+Best of 3 winner: Zoe, won 2 games
+chloe vs Computer: 2024-02-18 23:24:28.001330
+Best of 3 winner: chloe, won 2 games
+zina vs Computer: 2024-02-18 23:29:50.438028
+Best of 3 winner: zina, won 3 games
+Sony vs Computer: 2024-02-18 23:37:57.929009
+Best of 3 winner: Computer, won 2 games
+Ady vs Computer: 2024-02-18 23:42:48.521326
+Best of 3 winner: Ady, won 3 games
+Shujie vs Computer: 2024-02-18 23:47:12.497580
+Best of 3 winner: Shujie, won 3 games
+Ana vs Computer: 2024-02-18 23:47:39.832066
+Best of 3 winner: Computer, won 2 games
+Avy vs Computer: 2024-02-18 23:54:14.998640
+Best of 3 winner: Avy, won 2 games
+Zoe vs Computer: 2024-02-18 23:57:56.487691
+Best of 3 winner: Computer, won 2 games
+Shujie vs Computer: 2024-02-19 11:12:19.871876
 Best of 3 winner: Shujie, won 2 games
-Anagha vs Computer:
-Best of 3 winner: Anagha, won 3 games
-Shujie vs Computer:
-Best of 3 winner: Shujie, won 2 games
-Anagha vs Computer:
-Best of 3 winner: Anagha, won 1 games
-Anagha vs Computer:
+Ady vs Computer: 2024-02-19 12:22:00.454688
+Best of 3 winner: Ady, won 3 games
+Avy vs Computer: 2024-02-19 12:22:50.874518
+Best of 3 winner: Avy, won 3 games
+Abbie vs Computer: 2024-02-19 12:26:57.796438
 Best of 3 winner: Computer, won 2 games
