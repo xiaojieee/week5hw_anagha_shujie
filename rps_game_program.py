@@ -1,18 +1,22 @@
+# Week 5 homework Ex 14.
 # Program code to play the game of Rock-paper-scissors: user vs computer
 
-# import module for randint function
+# import module for randint function, user defined functions and datetime function
 import random
 import rps_game_functions
+import datetime
 
 # Main code
+# Get the current date and time
+dt = datetime.datetime.now()
 # invoke function greet_user from rps_game_functions module, returned value is stored in user variable
-user = rps_game_functions.greet_user()
+user = rps_game_functions.greet_user(dt)
 
-# lists that store the user and computer points i.e. number of wins from results of three games
+# lists that store the user and computer points i.e. number of wins from results of three games (initially 0) - mutable
 user_win = [0, 0, 0]
 comp_win = [0, 0, 0]
 
-# tuple defining user choices
+# tuple defining possible user choices - immutable
 user_choices = ('r', 'p', 's')
 # dictionary that maps computer's random integer input to corresponding character
 comp_val_dict = {0: 'r', 1: 'p', 2: 's'}
@@ -67,4 +71,5 @@ comp_win_total = sum(comp_win)
 
 # function call to display result of the games and registers a record in file
 rps_game_functions.display_result(user_win_total, comp_win_total, user)
+rps_game_functions.win_percentage()
 # End of program
