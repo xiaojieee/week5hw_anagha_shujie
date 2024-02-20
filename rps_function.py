@@ -1,7 +1,9 @@
 import random
 import time
+import csv
 # import random for the computer to generate a random number
 # import time to delay the code from showing after each round, so it's not overwhelming for the player
+# import csv (comma-separated values) to record data in an Excel file format
 
 
 def computer_choice():
@@ -62,6 +64,18 @@ def scores_tracker(computer_score, player_score):
 # if the file does not exist, it will create the file
 
 
+def choice_tracker(computer_choices, player_choices):
+    with open('choice.csv', 'a', newline='') as file:
+        rps_choices = csv.writer(file)
+        rps_choices.writerow([f'Computer choice', 'Your choice'])
+        rps_choices.writerow([computer_choices, player_choices])
+# define a new choice tracker to keep track of the choices both computer and player chose
+# using the .csv to append a file that will open with Excel
+# using the writerow method to write the rows in the file
+# by putting them in a square brackets, it will write the words in one cell
+# newline='' prevents it from writing a blank line inbetween
+
+
 def play_game():
     random.seed()
     print("Let's play a game of Rock, Paper, Scissors!"
@@ -84,6 +98,7 @@ def play_game():
                 computer_score += 1
             print(f"Computer's score: {computer_score}. Your score {player_score}.")
             scores_tracker(computer_score, player_score)
+            choice_tracker(computer, player_choice_input)
 
         if player_score > computer_score:
             print("Congratulations! You won!\n" + "-" * 64)
@@ -117,6 +132,7 @@ def play_game():
 # using the .sleep method again to wait to prompt the player if they want to play the game again
 # depending on their choice either play again, which loops through the code again
 # the player also have a choice to view the scores up until now
+# the choices are also recorded in an Excel file
 # if they chose to not play, it will end the code
 
 
