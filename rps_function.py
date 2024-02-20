@@ -53,6 +53,15 @@ def winner(computer, player):
 # anything 'else' means the computer has won
 
 
+def scores_tracker(computer_score, player_score):
+    with open('scores.txt', 'a') as file:
+        file.write(f"Scores up until now\n" + "-" * 19 + "\n" f"Computer{computer_score:>11}\nYou{player_score:>16}\n")
+# define a new scores tracker function which will write the scores on a separate file
+# using the computer and player scores as the 2 parameters
+# using 'a' append mode, it will open a file to keep the scores, if the file exists it will add to the end of the file
+# if the file does not exist, it will create the file
+
+
 def play_game():
     random.seed()
     print("Let's play a game of Rock, Paper, Scissors!"
@@ -74,6 +83,7 @@ def play_game():
             elif results == "Computer win this round!":
                 computer_score += 1
             print(f"Computer's score: {computer_score}. Your score {player_score}.")
+            scores_tracker(computer_score, player_score)
 
         if player_score > computer_score:
             print("Congratulations! You won!\n" + "-" * 64)
@@ -115,4 +125,3 @@ if __name__ == "__main__":
     print(computer_choice())
     print(player_choice())
     play_game()
-
