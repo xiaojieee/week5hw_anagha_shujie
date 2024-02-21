@@ -39,11 +39,15 @@ for game in range(0, 3):
             print("Please enter one of r/p/s only.")
             # skip next code and continue to loop condition for next iteration
             continue
+        with open('user_choices.txt', 'a+') as file:
+            file.write(f"{user_val}\t")
         # Computer generates a random integer from 0 to 2 both inclusive
         rand_int = random.randint(0, 2)
         # rand_int is used as key to get corresponding computer input value from dictionary
         comp_val = comp_val_dict.get(rand_int)
         print("Computer's choice:", comp_val)
+        with open('comp_choices.txt', 'a+') as file:
+            file.write(f"{comp_val}\t")
         # If user choice and computer choice are the same then skip following code and continue to next iteration
         if user_val == comp_val:
             print(f"Draw! No result because of same choices: {user_val} and {comp_val}")
@@ -58,6 +62,7 @@ for game in range(0, 3):
     # Checking the result is the next part in for loop after while loop ends. It concatenates user and computer values
     # to generate a result key which is passed as argument in judge(result_key) function call
     result_key = user_val + comp_val
+    # result_key = (lambda a, b: a + b)(user_val, comp_val)
 
     # the function returns two values that have count of user and computer wins respectively. They are
     # stored as list elements in user_win and comp_win lists pertaining to corresponding game
@@ -71,5 +76,12 @@ comp_win_total = sum(comp_win)
 
 # function call to display result of the games and registers a record in file
 rps_game_functions.display_result(user_win_total, comp_win_total, user)
+# function call to display choices' frequencies
+rps_game_functions.choice_frequency()
+# function call to display win percentages
 rps_game_functions.win_percentage()
+
+# immediate invoking of lambda function to display a bye message - trying out lambda in self-executing way
+# (lambda a: print(a))(f"\n{'~' * 10} Have a good day, {user.capitalize()} :) {'~' * 10}")
+print(f"\n{'~' * 36} Have a good day, {user.capitalize()} :) {'~' * 36}")
 # End of program

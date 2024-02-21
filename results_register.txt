@@ -34,3 +34,71 @@ Avy vs Computer: 2024-02-19 12:22:50.874518
 Best of 3 winner: Avy, won 3 games
 Abbie vs Computer: 2024-02-19 12:26:57.796438
 Best of 3 winner: Computer, won 2 games
+r vs Computer: 2024-02-20 11:11:06.514614
+Best of 3 winner: r, won 3 games
+Ana vs Computer: 2024-02-20 11:22:34.520175
+Best of 3 winner: Computer, won 2 games
+Adam vs Computer: 2024-02-20 11:23:38.771224
+Best of 3 winner: Adam, won 3 games
+Abbie vs Computer: 2024-02-20 11:41:05.833188
+Best of 3 winner: Computer, won 2 games
+Abbie vs Computer: 2024-02-20 11:43:49.073158
+Best of 3 winner: Abbie, won 2 games
+Adam vs Computer: 2024-02-20 11:44:38.357863
+Best of 3 winner: Computer, won 2 games
+Avy vs Computer: 2024-02-20 11:53:27.425099
+Best of 3 winner: Avy, won 2 games
+Amaya vs Computer: 2024-02-20 11:54:45.292475
+Best of 3 winner: Amaya, won 3 games
+Phil vs Computer: 2024-02-20 11:57:26.929573
+Best of 3 winner: Computer, won 2 games
+Paddy vs Computer: 2024-02-20 11:58:32.465549
+Best of 3 winner: Paddy, won 2 games
+Joey vs Computer: 2024-02-20 12:00:38.663123
+Best of 3 winner: Computer, won 2 games
+shelly vs Computer: 2024-02-20 12:01:31.278083
+Best of 3 winner: shelly, won 2 games
+Arin vs Computer: 2024-02-20 12:03:34.204260
+Best of 3 winner: Arin, won 3 games
+shams vs Computer: 2024-02-20 12:04:10.047411
+Best of 3 winner: Computer, won 2 games
+Chi vs Computer: 2024-02-20 12:05:12.911815
+Best of 3 winner: Computer, won 2 games
+polly vs Computer: 2024-02-20 12:07:56.743548
+Best of 3 winner: Computer, won 2 games
+Annie vs Computer: 2024-02-20 12:10:18.302282
+Best of 3 winner: Annie, won 2 games
+Shujie vs Computer: 2024-02-20 13:35:50.107099
+Best of 3 winner: Computer, won 2 games
+Binnie vs Computer: 2024-02-20 13:54:20.970680
+Best of 3 winner: Binnie, won 3 games
+Binnie vs Computer: 2024-02-20 14:17:11.937439
+Best of 3 winner: Binnie, won 3 games
+Ann vs Computer: 2024-02-20 14:17:56.640915
+Best of 3 winner: Computer, won 2 games
+Binnie vs Computer: 2024-02-20 14:24:47.957793
+Best of 3 winner: Computer, won 2 games
+Ady vs Computer: 2024-02-20 17:32:58.726063
+Best of 3 winner: Ady, won 2 games
+Avy vs Computer: 2024-02-20 17:35:25.203488
+Best of 3 winner: Avy, won 3 games
+Pliny vs Computer: 2024-02-20 23:27:44.183413
+Best of 3 winner: Computer, won 2 games
+Pliny jr vs Computer: 2024-02-21 00:06:13.779092
+Best of 3 winner: Pliny jr, won 2 games
+Pliny sr vs Computer: 2024-02-21 00:08:00.096072
+Best of 3 winner: Pliny sr, won 3 games
+Hermione vs Computer: 2024-02-21 00:08:55.699770
+Best of 3 winner: Computer, won 3 games
+Dumbledore vs Computer: 2024-02-21 00:10:16.076294
+Best of 3 winner: Computer, won 2 games
+Ronald vs Computer: 2024-02-21 00:11:37.221210
+Best of 3 winner: Ronald, won 3 games
+Hp vs Computer: 2024-02-21 00:13:49.640528
+Best of 3 winner: Computer, won 3 games
+Luna vs Computer: 2024-02-21 00:14:59.925149
+Best of 3 winner: Luna, won 2 games
+Shujie vs Computer: 2024-02-21 11:02:44.424211
+Best of 3 winner: Computer, won 2 games
+Anagha vs Computer: 2024-02-21 11:04:30.657463
+Best of 3 winner: Anagha, won 3 games
