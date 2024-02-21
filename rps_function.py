@@ -75,6 +75,32 @@ def choice_tracker(computer_choices, player_choices):
 # by putting them in a square brackets, it will write the words in one cell
 # newline='' prevents it from writing a blank line inbetween
 
+# AJ
+def choices_stats():
+    # opens csv file in read mode
+    with open('choice.csv', 'r', newline='') as file:
+        myfile = csv.reader(file)
+        # initialises dictionary with count values as zero
+        choices_count = {'rock': 0, 'paper': 0, 'scissors': 0}
+        # Since file has two columns we iterate twice
+        for col_index in range(0, 2):
+            # brings cursor back to beginning
+            file.seek(0)
+            # list called col_entries is getting initialised by entries in one of the columns
+            col_entries = [row[col_index].lower() for row in myfile]
+            # dictionary values are getting updated with new count
+            choices_count['rock'] = col_entries.count('rock')
+            choices_count['paper'] = col_entries.count('paper')
+            choices_count['scissors'] = col_entries.count('scissors')
+            # At index 0 we have stored values for computer choices
+            if col_index == 0:
+                print("Computer choice stats:")
+            # Else condition is for index 1 where we have all user choice values
+            else:
+                print("Users choice stats:")
+            # prints all dictionary values
+            print(choices_count)
+
 
 def play_game():
     random.seed()
@@ -110,12 +136,14 @@ def play_game():
         while True:
             time.sleep(2)
             play_again = input("Do you want to play again? Enter 'y' to continue, or 'n' to exit"
-                               "\nAlternatively, enter 'c' to check the scores:").lower()
+                               "\nAlternatively, enter 'c' to check the scores or 's' to check stats:").lower()
             if play_again == 'y' or play_again == 'n':
                 break
             elif play_again == 'c':
                 print(f"Scores up until now\n" + "-" * 19 + "\n"
-                      f"Computer{computer_score:>11}\nYou{player_score:>16}")
+                                                            f"Computer{computer_score:>11}\nYou{player_score:>16}")
+            elif play_again == 's':
+                choices_stats()
             else:
                 print("Oh no! Not a valid option! Please enter 'y' or 'n' to continue!")
         if play_again != 'y':
